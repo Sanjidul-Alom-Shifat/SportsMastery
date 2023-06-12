@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .my-container{
+        @apply px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4
+    }
+    .active{
+        @apply font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br  from-teal-600 to-teal-400  duration-200
+    }
+
+    .default{
+        @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-400
+    }
+    .input_group{
+        @apply flex border rounded-xl;
+        position: relative;
+    }
+
+    .input_text{
+        @apply w-full py-4 px-6 border rounded-xl bg-slate-50;
+        @apply focus:outline-none border-none
+    }
+
+    .input_form{
+        @apply w-full py-4 border rounded-xl bg-slate-50;
+        @apply focus:outline-none border-none
+    }
+
+    .button{
+        @apply w-full bg-gradient-to-r from-orange-300 to-amber-300 rounded-md;
+        @apply py-3 text-black text-lg font-semibold
+    }
+
+    .button:hover{
+        @apply bg-gradient-to-r from-orange-50 to-amber-100 border-orange-500;
+        @apply text-gray-700 border;
+    }
+
+    .button_custom{
+    @apply w-full border py-3 flex justify-center gap-2 hover:bg-gray-200;
+    }
