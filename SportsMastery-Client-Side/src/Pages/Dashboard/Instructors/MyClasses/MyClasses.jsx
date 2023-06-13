@@ -13,7 +13,7 @@ const MyClasses = () => {
     const { data: myclasses = [], refetch } = useQuery({
         queryKey: ["approvedClass"],
         queryFn: async () => {
-            const res = await axiosSecure(`/classes?email=${user.email}`);
+            const res = await axiosSecure.get(`/classes?email=${user.email}`);
             return res.data
         }
     })
