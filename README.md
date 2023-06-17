@@ -2,8 +2,6 @@
 
 ## Features of project :
 
- Best features of your project:
-
  - My project name is Special SportsMastery. Actually This a website for sports clubs. You will find the suitable sports and a suitable coach to train you. In my web site I have implemented three roles: student, instructor and admin.
  - In the website without login you will find.
     - A home page where I implement:
