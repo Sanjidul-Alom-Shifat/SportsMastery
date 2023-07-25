@@ -1,0 +1,4 @@
+DB_USER = /*mongodb database creating user name*/
+DB_PASS = /*mongodb database creating user password*/
+ACCESS_TOKEN_SECRET = /*token from jwt*/
+PAYMENT_SECRECT_KEY = /*token from stripe payment website sk text token*/
